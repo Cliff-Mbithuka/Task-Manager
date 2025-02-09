@@ -68,23 +68,23 @@
 
 ## Summary of Approach
 
-- Structure
+1. Structure
 - The application follows an MVC (Model-View-Controller) architecture for code organization.
 - Backend services are implemented using Node.js and Express for routing and API logic.
-- Database
+2. Database
 - MongoDB is used for data persistence.
 - Mongoose is used for schema design and database interactions.
-- Swagger Documentation
+3. Swagger Documentation
 - Swagger UI is integrated for API documentation to provide clear instructions and testing capabilities.
 
 ## Assumptions
 
-- Authentication
+1. Authentication
 - The API currently does not include user authentication but can be extended with JWT for secured access.
-- Data Validation
+2. Data Validation
 - Basic validation is assumed to be handled at the frontend. The backend implements additional validation with Mongoose schemas.
 
 ## Limitations
 
-- Scalability
+1. Scalability
 - The current implementation is designed for a single-user application. Multi-user functionality requires role-based access control (RBAC) and user authentication mechanisms.
