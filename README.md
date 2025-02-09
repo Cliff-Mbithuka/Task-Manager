@@ -1,6 +1,4 @@
-
-
-# TASK MANAGER APPLICATION BY KIPRONO VINCENT. 
+# TASK MANAGER APPLICATION BY KIPRONO VINCENT.
 
 - A full-stack Task Manager application that allows users to create, update, read, and delete tasks. It features a React frontend and a Node.js/Express.js backend, with MongoDB as the database.
 
@@ -8,15 +6,15 @@
 
 ### Frontend
 
-* Features
-* Setup
-* Technologies Used
+- Features
+- Setup
+- Technologies Used
 
 ### Backend
 
-* Features
-* Setup
-* Technologies Used
+- Features
+- Setup
+- Technologies Used
 
 ### Folder Structure
 
@@ -69,19 +67,24 @@
 5. Access Swagger API documentation: Open http://localhost:2999/api-docs in your browser.
 
 ## Summary of Approach
-### Structure 
+
+- Structure
 - The application follows an MVC (Model-View-Controller) architecture for code organization.
 - Backend services are implemented using Node.js and Express for routing and API logic.
-### Database
+- Database
 - MongoDB is used for data persistence.
 - Mongoose is used for schema design and database interactions.
-### Swagger Documentation
+- Swagger Documentation
 - Swagger UI is integrated for API documentation to provide clear instructions and testing capabilities.
+
 ## Assumptions
-### Authentication
+
+- Authentication
 - The API currently does not include user authentication but can be extended with JWT for secured access.
-### Data Validation
+- Data Validation
 - Basic validation is assumed to be handled at the frontend. The backend implements additional validation with Mongoose schemas.
+
 ## Limitations
-### Scalability
+
+- Scalability
 - The current implementation is designed for a single-user application. Multi-user functionality requires role-based access control (RBAC) and user authentication mechanisms.
