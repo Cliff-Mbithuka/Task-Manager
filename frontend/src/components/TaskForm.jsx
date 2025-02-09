@@ -22,14 +22,9 @@ function TaskForm({ visible, onHide, taskToEdit, refreshTasks }) {
     try {
       const formattedTask = {
         ...task,
-        dueDate: task.dueDate
-          ? new Date(task.dueDate).toLocaleDateString("en-GB", {
-              year: "numeric",
-              month: "2-digit",
-              day: "2-digit",
-            })
-          : null,
+        dueDate: task.dueDate ? new Date(task.dueDate).toISOString().split("T")[0] : null,
       };
+      
 
       if (taskToEdit) {
         await axios.put(`http://localhost:2999/api/tasks/${taskToEdit._id}`, formattedTask);
