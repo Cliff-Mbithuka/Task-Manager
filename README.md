@@ -1,4 +1,4 @@
-# TASK MANAGER APPLICATION BY KIPRONO VINCENT.
+# TASK MANAGER APPLICATION 
 
 - A full-stack Task Manager application that allows users to create, update, read, and delete tasks. It features a React frontend and a Node.js/Express.js backend, with MongoDB as the database.
 
